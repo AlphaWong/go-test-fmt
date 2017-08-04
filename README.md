@@ -2,7 +2,7 @@
 Test hex conversion benchmark in <code>fmt.Sprintf("%x",secret)</code> and <code>hex.EncodeToString(secret)</code>
 
 # Expected
-Same benchmark.
+Show benchmark.
 
 # Actual
 <code>hex.EncodeToString(secret)</code> always faster then fmt.
